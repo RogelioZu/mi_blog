@@ -4,20 +4,40 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-header {
-    background: linear-gradient(135deg, #6a11cb, #fcd125);
+
+.cool-header {
+    background: linear-gradient(135deg, #1d3557, #457b9d);
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-header h1 {
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.space-image {
+    width: 80px;
+    height: auto;
+}
+
+.special-font {
+    font-family: 'Orbitron', sans-serif;
     font-size: 2.5em;
     margin: 0;
 }
+
 header p {
     font-size: 1.2em;
-    margin: 10px 0 0;
+    margin: 5px 0 0;
 }
+
 .intro {
     margin: 20px auto;
     max-width: 800px;
@@ -26,10 +46,12 @@ header p {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .intro h2 {
     margin-top: 0;
     color: #333;
 }
+
 .intro p {
-    color: #333;
+    color: #555;
 }
